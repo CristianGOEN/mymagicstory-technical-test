@@ -1,0 +1,21 @@
+{
+    "name": "cristian/mymagicstory-technical-test",
+    "description": "My Magic Story technical test",
+    "type": "project",
+    "license": "propietary",
+    "authors": [
+        {
+            "name": "Cristian González",
+            "email": "cristian.goen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyMagicStory\\App\\" : "app/",
+            "MyMagicStory\\Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
