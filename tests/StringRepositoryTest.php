@@ -8,7 +8,7 @@ use MyMagicStory\App\NoIntersectionFound;
 use MyMagicStory\App\StringRepository;
 use PHPUnit\Framework\TestCase;
 
-final class ReverseStringTest extends TestCase
+final class StringRepositoryTest extends TestCase
 {
     protected StringRepository $stringRepository;
 
